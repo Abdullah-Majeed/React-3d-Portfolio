@@ -6,9 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// template_5vql8b5
-// service_prmtm7o
-// vrq6nGCVIRee3v-tZ
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -43,6 +41,7 @@ const Contact = () => {
           from_email: form.email,
           to_email: "abdullahmajeed969@gmail.com",
           message: form.message,
+          reply_to:form.email
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
