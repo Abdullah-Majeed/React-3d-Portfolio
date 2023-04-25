@@ -1,7 +1,6 @@
 {
   "name": "3d-portfolio",
   "private": true,
-  "homepage": "https://abdullah-majeed.github.io/React-3d-Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
