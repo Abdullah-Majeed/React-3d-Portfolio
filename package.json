@@ -1,16 +1,18 @@
 {
   "name": "3d-portfolio",
   "private": true,
+  "homepage": "https://abdullah-majeed.github.io/React-3d-Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "master -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
@@ -22,6 +24,7 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
+    "save-dev": "^0.0.1-security",
     "three": "^0.149.0"
   },
   "devDependencies": {
