@@ -30,8 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import car from './car.png'
-
+import companyLogo from './company.png'
+import shirt from './shirt.png'
 export {
+  shirt,
+  companyLogo,
   car,
   logo,
   backend,

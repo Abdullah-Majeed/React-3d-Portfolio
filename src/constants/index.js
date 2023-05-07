@@ -23,7 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
-  car
+  car,
+  companyLogo,
+  shirt
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -55,9 +57,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
-  },
+    title: "Python Developer",
+    icon: creator
+  }
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -117,52 +123,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    title: "Intern",
+    company_name: "Strada Imaging",
+    icon: companyLogo,
+    // iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React.js Developer",
+    company_name: "Strada Imaging",
+    icon: companyLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Strada Imaging",
+    icon: companyLogo,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Dec 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining backend using Node.js, Python (Flask) and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Product Owner",
+    company_name: "Strada Imaging",
+    icon: companyLogo,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -199,9 +216,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Vehicle Detection and Tracking",
+    name: "Vehicle Detection",
     description:
-      "A comprehensive project for detecting and tracking vehicles has been developed, which enables accurate counting of vehicles. This innovative system utilizes advanced technology to identify and monitor vehicles in real-time.",
+      "A comprehensive project for detecting and tracking vehicles has been developed, which enables accurate counting of vehicles.This system identify vehicles in real-time.",
     tags: [
       {
         name: "computervision",
@@ -220,9 +237,9 @@ const projects = [
     source_code_link: "https://github.com/Abdullah-Majeed/Vehicle-Detection-Tracking-Python",
   },
   {
-    name: "Job IT",
+    name: "3D Product Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to design the shirt, change shirt colors, generate logo using OpenAI and generate text for logo using ChatGPT.",
     tags: [
       {
         name: "react",
@@ -233,12 +250,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: shirt,
+    source_code_link: "https://github.com/Abdullah-Majeed/React-3D-Product-Website",
   },
   {
     name: "Trip Guide",
