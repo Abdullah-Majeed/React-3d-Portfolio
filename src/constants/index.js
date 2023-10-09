@@ -25,7 +25,9 @@ import {
   threejs,
   car,
   companyLogo,
-  shirt
+  shirt,
+  chatgpt,
+  aam,
 } from "../assets";
 
 export const navLinks = [
@@ -128,22 +130,24 @@ const experiences = [
     icon: companyLogo,
     // iconBg: "#383E56",
     iconBg: "#E6DEDD",
-    date: "March 2020 - April 2021",
+    date: "Jan 2020 - April 2020",
     points: [
-      "Developing and maintaining web applications and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing small features and maintaining web applications in high-quality.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React.js Developer",
+    title: "Software Engineer",
     company_name: "Strada Imaging",
     icon: companyLogo,
     iconBg: "#E6DEDD",
-    date: "May 2021 - Feb 2022",
+    date: "May 2020 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Specialized as a Software Engineer in web development using ReactJS at Strada Imaging from May 2020 to 2022.",
+      "Enhanced web app functionality and user experience using CSS frameworks such as Bootstrap and Material UI.",
+      "Led a significant project, AssetTag, a cutting-edge construction application, revolutionizing project management in the construction industry",
+      "Gained profound insights into software development and project management during my tenure, influencing my current approach in these domains.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -160,26 +164,30 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-  {
-    title: "Full stack Developer",
-    company_name: "Strada Imaging",
-    icon: companyLogo,
-    iconBg: "#E6DEDD",
-    date: "March 2022 - Dec 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Developing and maintaining backend using Node.js, Python (Flask) and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Strada Imaging",
+  //   icon: companyLogo,
+  //   iconBg: "#E6DEDD",
+  //   date: "March 2022 - Dec 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Developing and maintaining backend using Node.js, Python (Flask) and other related technologies.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Product Owner",
     company_name: "Strada Imaging",
     icon: companyLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2022 - Present",
     points: [
+      "Product Owner at Strada Imaging since May 2022, responsible for leading and driving front-end development efforts using React JS for two critical applications: AssetTag and Deeproad.",
+      "Enhanced and expanded functionality and design of AssetTag, a comprehensive construction application, to include features like company creation, employee management, access control, floor plan uploading, issue marking, and report generation, ensuring a seamless user experience.",
+      "Worked on Deeproad, a sophisticated road survey application utilizing machine learning and deep learning algorithms, to improve functionality and efficiency through advanced algorithms and innovative designs.",
+      "Led a team of 3 to 4 individuals as a Product Owner, providing guidance and support to implement new functionalities and ensuring successful project outcomes.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -190,28 +198,29 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I have had the pleasure of collaborating with Abdullah, who's an exceptional front-end engineer and a leader with the ability to handle back-end issues during emergencies. I am always impressed by individuals who exhibit strong responsibility, knowledge, and credibility, and Abdullah embodies all of these qualities.",
+    name: "Zain Ul Mustafa",
+    designation: "Team Manager",
+    company: "Strada Imaging",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
+  }
+  ,
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working closely with Abdullah, an outstanding front-end engineer, and a proficient problem-solver in back-end emergencies has been a true pleasure. Abdullah embodies a rare blend of responsibility, extensive knowledge, and unquestionable credibility.",
+    name: "Muhammad Aamir",
+    designation: "Backend Engineer",
+    company: "Starda Imaging",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
@@ -258,27 +267,48 @@ const projects = [
     source_code_link: "https://github.com/Abdullah-Majeed/React-3D-Product-Website",
   },
   {
-    name: "Trip Guide",
+    name: "ChatGPT-FLutter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I've developed a Flutter app integrating ChatGPT, creating a seamless and engaging conversational experience. Users can interact with a highly responsive AI chatbot, powered by OpenAI's advanced language model.",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "llm models",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatgpt,
+    source_code_link: "https://github.com/Abdullah-Majeed/chatgpt_flutter",
   },
-  
+  {
+    name: "Automated Asset Monitoring",
+    description:
+      "In this project, a mobile app is proposed to be designed for asset management. Two specific areas targeted are construction and building management.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aam,
+    source_code_link: "https://github.com/Abdullah-Majeed",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

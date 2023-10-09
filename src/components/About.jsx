@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript and
-        TypeScript, and expertise in frameworks like React, Node.js,
-        Three.js, Flutter, and Python. I'm a quick learner and collaborate closely with clients to
+        I'm a skilled software developer with experience in JavaScript,
+        TypeScript and Python and expertise in frameworks like ReactJs,NextJs, NodeJs, ExpressJs,
+        ThreeJs, Flutter. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>

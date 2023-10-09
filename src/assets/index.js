@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import car from './car.png'
 import companyLogo from './company.png'
 import shirt from './shirt.png'
+import chatgpt from './chatgpt.png'
+import aam from './aam.png'
 export {
   shirt,
   companyLogo,
@@ -64,4 +66,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  chatgpt,
+  aam,
 };
